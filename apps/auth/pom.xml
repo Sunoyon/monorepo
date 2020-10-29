@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.dsi</groupId>
+		<artifactId>common-java-rest</artifactId>
+		<version>0.0.1</version>
+		<relativePath>../../common/common-java-rest/pom.xml</relativePath>
+	</parent>
+
+	<groupId>${project.parent.groupId}</groupId>
+	<artifactId>auth</artifactId>
+	<version>${project.parent.version}</version>
+	<name>DPE-IEMIS :: Apps :: Auth</name>
+
+	<url>http://maven.apache.org</url>
+
+	<build>
+		<finalName>auth</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+</project>

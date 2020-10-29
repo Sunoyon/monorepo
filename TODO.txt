@@ -1,0 +1,7 @@
+1. Other framework (node etc.) support
+	1.1 Extend to MVC
+2. Git workflows
+3. Docker support
+5. Docs/common libs support
+	5.1. java lib as dependency
+		- exception etc management
