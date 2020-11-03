@@ -5,3 +5,4 @@ COPY target/${JAR_FILE} app.jar
 
 ENTRYPOINT ["java","-jar","/app.jar"]
 CMD ["--spring.config.location=classpath:/application.properties"]
+
